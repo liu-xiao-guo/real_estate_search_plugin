@@ -2,6 +2,8 @@
 
 A Claude-agent-plugin-spec compliant package providing property search capabilities for Elasticsearch. Installable into Elastic Agent Builder (which accepts plugins built to the Claude agent plugin specification) and into Claude Code itself.
 
+Please refer to the the repo at [elastic-property-mcp](https://github.com/justincastilla/elastic-property-mcp) on how to ingest data into Elasticsearch.
+
 ## What it provides
 
 - **Skill `/property-search:search`** — natural-language property search against an Elasticsearch index. Includes strict ES|QL conversion rules (semantic-text scoring, correct operators per field, sort order).
