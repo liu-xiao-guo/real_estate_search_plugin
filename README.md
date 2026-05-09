@@ -70,3 +70,7 @@ Bump `version` in `.claude-plugin/plugin.json` for each release. Without an expl
 
 - The geocoder reads `GOOGLE_MAPS_API_KEY` from the environment. Do **not** hardcode the key into `scripts/geocode_tool.py` before zipping — the zip ships to every install.
 - Elasticsearch credentials are not handled by this plugin; the agent runtime (Agent Builder) is expected to provide an authenticated ES client/connection.
+
+**License** ⚖️
+
+This software is licensed under the [Apache License, version 2 ("ALv2")](https://github.com/elastic/elasticsearch-labs/blob/main/LICENSE).
