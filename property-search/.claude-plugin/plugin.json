@@ -1,0 +1,10 @@
+{
+  "name": "property-search",
+  "description": "Property search capabilities for Elasticsearch: Google Maps geocoding plus ES|QL semantic property search with strict operator rules.",
+  "version": "1.0.0",
+  "author": {
+    "name": "xiaoguo.liu@elastic.co"
+  },
+  "homepage": "https://www.elastic.co/docs/solutions/search/search-templates",
+  "license": "Elastic-2.0"
+}
